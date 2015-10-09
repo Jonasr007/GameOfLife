@@ -26,9 +26,9 @@ public class Grid {
 	}
 
 	public void addCell(Cell cell) {
-		int r = (int)(Math.random()*2);
+		int r = (int)(Math.random()*10);
 		double d = Math.random();
-		System.out.println(d);
+		System.out.println(r);
 		
 		cells.add(cell);	
 	}
