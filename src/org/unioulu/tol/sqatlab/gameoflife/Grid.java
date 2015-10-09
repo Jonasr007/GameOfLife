@@ -6,10 +6,6 @@ import java.util.Set;
 public class Grid {
 	private Set<Cell> cells = new HashSet<>(); 
 	
-	public Grid() {
-		
-	}
-	
 	public int getNeighbours(Cell cell) {
 		int numNeighbours=0;
 		Set<Cell> neighbourhood = new HashSet<Cell>();
@@ -18,17 +14,22 @@ public class Grid {
 			for (int dy=-1; dy<=1; dy++) {
 	
 				Cell neighbour = new Cell(cell.x+dx, cell.y+dy);
-				System.out.println(neighbour);
-				if(cells.contains(neighbour))
+			//	System.out.println(neighbour);
+			//	System.out.println(cells.toString());
+
+				if(cells.contains(neighbour)) {
+					System.out.println(" gleiches Element");
 					numNeighbours++;
+				}
 			}
 		}
 		return numNeighbours-1;
 	}
 
 	public void addCell(Cell cell) {
-		cells.add(cell);
-		// TODO Auto-generated method stub
+		int r = (int)Math.random();
+		System.out.println(r);
 		
+		cells.add(cell);	
 	}
 }

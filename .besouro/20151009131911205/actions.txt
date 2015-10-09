@@ -14,3 +14,19 @@ UnitTestCaseAction 1444386364252 TestGrid.java FAIL
 UnitTestSessionAction 1444386364253 TestGrid.testSingleCellOnGridShouldHasOneOtherNeighbour FAIL
 EditAction 1444386375366 Cell.java 563 6 8 0
 EditAction 1444386415371 Cell.java 567 6 8 0
+UnitTestCaseAction 1444386420036 TestGrid.java FAIL
+UnitTestSessionAction 1444386420037 TestGrid.testSingleCellOnGridShouldHasOneOtherNeighbour FAIL
+UnitTestCaseAction 1444386462945 TestGrid.java FAIL
+UnitTestSessionAction 1444386462946 TestGrid.testSingleCellOnGridShouldHasOneOtherNeighbour FAIL
+UnitTestCaseAction 1444386717271 TestGrid.java FAIL
+UnitTestSessionAction 1444386717272 TestGrid.testSingleCellOnGridShouldHasOneOtherNeighbour FAIL
+RefactoringAction 1444387138366 Grid.java ADD import java.util.Iterator IMPORT
+UnitTestCaseAction 1444387199921 TestGrid.java FAIL
+UnitTestSessionAction 1444387199923 TestGrid.testSingleCellOnGridShouldHasOneOtherNeighbour FAIL
+UnitTestCaseAction 1444387274128 TestGrid.java FAIL
+UnitTestSessionAction 1444387274129 TestGrid.testSingleCellOnGridShouldHasOneOtherNeighbour FAIL
+RefactoringAction 1444387325264 Grid.java REMOVE import java.util.Iterator IMPORT
+UnitTestCaseAction 1444387364431 TestGrid.java FAIL
+UnitTestSessionAction 1444387364432 TestGrid FAIL
+RefactoringAction 1444387466040 Grid.java REMOVE Grid() METHOD
+EditAction 1444387729265 Grid.java 743 2 7 0
