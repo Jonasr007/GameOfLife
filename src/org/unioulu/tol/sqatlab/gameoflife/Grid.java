@@ -8,7 +8,7 @@ public class Grid {
 	int aliveCounter;
 	int deadCounter;
 	
-	Grid() {
+	public Grid() {
 		aliveCounter=0;
 		deadCounter=0;
 	}

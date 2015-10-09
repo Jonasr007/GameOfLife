@@ -22,7 +22,7 @@ public class TestGrid {
 		assertEquals(1, numNeighbours);
 	}
 	
-	/*
+	
 	@Test
 	public void testSingleCellOnGridShouldHasOneOtherNeighbour() {
 		Grid grid = new Grid();
@@ -47,7 +47,7 @@ public class TestGrid {
 		
 		assertEquals(0, numNeighbours);
 	}
-	*/
+	
 	
 	
 

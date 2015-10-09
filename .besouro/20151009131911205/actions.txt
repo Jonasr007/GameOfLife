@@ -91,3 +91,8 @@ EditAction 1444388954309 Grid.java 848 3 9 0
 EditAction 1444388992171 Grid.java 844 3 9 0
 EditAction 1444389028681 Grid.java 885 3 9 0
 EditAction 1444389189764 Grid.java 1003 3 12 0
+UnitTestCaseAction 1444389213238 TestGrid.java OK
+UnitTestSessionAction 1444389213239 TestGrid OK
+RefactoringAction 1444389220411 TestGrid.java ADD void testSingleCellOnGridShouldHasOneOtherNeighbour() METHOD
+RefactoringAction 1444389220412 TestGrid.java ADD void testSingleCellOnGridHasNotNeighbours() METHOD
+EditAction 1444389224134 TestGrid.java 1060 3 19 3
