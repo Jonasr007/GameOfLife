@@ -29,6 +29,9 @@ public class Cell {
 		return state;
 	}
 	
+	public String toString() {
+		return "X= " +x + "Y= " + y + "state: " + state;
+	}
 	
 	
 	

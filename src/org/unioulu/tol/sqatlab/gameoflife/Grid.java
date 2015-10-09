@@ -5,10 +5,6 @@ import java.util.Set;
 
 public class Grid {
 	private Set<Cell> cells = new HashSet<>(); 
-	int currentWidth;
-	int currentLength;
-	int width;
-	int length;
 	
 	public Grid() {
 		
@@ -16,13 +12,13 @@ public class Grid {
 	
 	public int getNeighbours(Cell cell) {
 		int numNeighbours=0;
-		Set<Cell> neighbours = new HashSet<Cell>();
 		Set<Cell> neighbourhood = new HashSet<Cell>();
 
 		for (int dx=-1; dx<=1; dx++) {
 			for (int dy=-1; dy<=1; dy++) {
 	
 				Cell neighbour = new Cell(cell.x+dx, cell.y+dy);
+				System.out.println(neighbour);
 				if(cells.contains(neighbour))
 					numNeighbours++;
 			}

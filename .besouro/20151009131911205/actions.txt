@@ -1,0 +1,9 @@
+FileOpenedAction 1444385951352 Grid.java 723 3 5 0
+UnitTestCaseAction 1444385960121 TestGrid.java FAIL
+UnitTestSessionAction 1444385960122 TestGrid.testSingleCellOnGridShouldHasOneOtherNeighbour FAIL
+RefactoringAction 1444386005182 Grid.java REMOVE length FIELD
+RefactoringAction 1444386005183 Grid.java REMOVE currentLength FIELD
+RefactoringAction 1444386005184 Grid.java REMOVE width FIELD
+RefactoringAction 1444386005186 Grid.java REMOVE currentWidth FIELD
+RefactoringAction 1444386254263 Cell.java ADD String toString() METHOD
+EditAction 1444386300256 Cell.java 532 6 7 0
