@@ -31,7 +31,7 @@ public class Cell {
 	}
 	
 	public String toString() {
-		return "X= " +x + "Y= " + y + "state: " + state;
+		return "X= " +x + "  Y= " + y + "  state: " + state;
 	}
 	
 	
