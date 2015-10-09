@@ -40,9 +40,14 @@ public class Grid {
 		}
 		else {
 			cell.setState("Dead");
-			deadCounter++;
-			
+			deadCounter++;			
 		}		
-		cells.add(cell);	
+		cells.add(cell);
+
+		int dif = deadCounter-aliveCounter;
+		if(dif>5)
+			cell.setState("Alive");
+		if(dif<-5)
+			cell.setState("Dead");			
 	}
 }
