@@ -15,7 +15,6 @@ public class Cell {
 	}
 
 	public String getState() {
-		state="dead";
 		return state;
 	}
 	
