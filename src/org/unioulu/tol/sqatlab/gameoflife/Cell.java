@@ -19,7 +19,7 @@ public class Cell {
 	}
 
 	public void nextIteration(int numberOfLiveCells) {
-		if(state.equals("alive") && numberOfLiveCells<2) {
+		if(state.equals("Alive") && numberOfLiveCells<2) {
 			state ="Dead";
 		}
 		else

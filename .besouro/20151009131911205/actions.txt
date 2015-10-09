@@ -10,3 +10,6 @@ EditAction 1444386300256 Cell.java 532 6 7 0
 UnitTestCaseAction 1444386306127 TestGrid.java FAIL
 UnitTestSessionAction 1444386306128 TestGrid.testSingleCellOnGridShouldHasOneOtherNeighbour FAIL
 EditAction 1444386360093 Cell.java 563 6 8 0
+UnitTestCaseAction 1444386364252 TestGrid.java FAIL
+UnitTestSessionAction 1444386364253 TestGrid.testSingleCellOnGridShouldHasOneOtherNeighbour FAIL
+EditAction 1444386375366 Cell.java 563 6 8 0
