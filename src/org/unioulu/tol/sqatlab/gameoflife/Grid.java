@@ -39,10 +39,7 @@ public class Grid {
 		}
 		else {
 			cell.setState("Dead");
-
-		}
-
-		
+		}		
 		cells.add(cell);	
 	}
 }
