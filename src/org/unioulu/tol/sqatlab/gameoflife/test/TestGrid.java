@@ -40,7 +40,7 @@ public class TestGrid {
 		@Test
 	public void testSingleCellOnGridHasNotNeighbours() {
 		Grid grid = new Grid();
-		Cell cell = new Cell(1,1);
+		Cell cell = new Cell(0,0);
 		grid.addCell(cell);
 			
 		int numNeighbours=grid.getNeighbours(cell);

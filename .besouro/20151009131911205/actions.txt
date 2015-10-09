@@ -96,3 +96,6 @@ UnitTestSessionAction 1444389213239 TestGrid OK
 RefactoringAction 1444389220411 TestGrid.java ADD void testSingleCellOnGridShouldHasOneOtherNeighbour() METHOD
 RefactoringAction 1444389220412 TestGrid.java ADD void testSingleCellOnGridHasNotNeighbours() METHOD
 EditAction 1444389224134 TestGrid.java 1060 3 19 3
+UnitTestCaseAction 1444389231696 TestGrid.java OK
+UnitTestSessionAction 1444389231697 TestGrid OK
+EditAction 1444389317838 TestGrid.java 1060 3 19 3
