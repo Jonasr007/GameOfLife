@@ -18,7 +18,7 @@ public class Grid {
 				System.out.println(cells.toString());
 
 				if(cells.contains(neighbour)) {
-					System.out.println(" gleiches Element");
+					System.out.println(" same Element");
 					numNeighbours++;
 				}
 			}
