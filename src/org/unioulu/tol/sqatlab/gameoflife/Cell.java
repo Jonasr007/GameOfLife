@@ -11,7 +11,7 @@ public class Cell {
 			state ="Dead";
 		}
 		else
-			state ="Dead";
+			state ="Alive";
 	}
 
 	public String getState() {
