@@ -37,3 +37,4 @@ UnitTestCaseAction 1444387759951 TestGrid.java FAIL
 UnitTestSessionAction 1444387759952 TestGrid FAIL
 RefactoringAction 1444387914536 TestGrid.java REMOVE testSingleCellOnGridShouldHasOneOtherNeighbour() METHOD
 EditAction 1444387928546 Grid.java 735 2 7 0
+EditAction 1444387932776 TestGrid.java 1060 2 12 2
