@@ -79,3 +79,7 @@ RefactoringAction 1444383605518 TestGrid.java RENAME testSingleCellOnGrid()=>voi
 RefactoringAction 1444383609533 TestGrid.java RENAME testSingleCellOnGridHas()=>void testSingleCellOnGridHasNotNeighbours() METHOD
 RefactoringAction 1444383618568 TestGrid.java ADD void testSingleCellOnGridHasNotNeighbours()/2 METHOD
 EditAction 1444383662457 TestGrid.java 748 2 12 2
+CompilationAction 1444383668366 TestGrid.java
+RefactoringAction 1444383671735 TestGrid.java RENAME testSingleCellOnGridHasNotNeighbours()/2=>void testSingleCellOnGridHasOneNeighbours() METHOD
+RefactoringAction 1444383674251 TestGrid.java RENAME testSingleCellOnGridHasOneNeighbours()=>void testSingleCellOnGridHasOneNeighbour() METHOD
+RefactoringAction 1444383693768 TestGrid.java RENAME testSingleCellOnGridHasOneNeighbour()=>void testSingleCellOnGridShouldHasOneNeighbour() METHOD
