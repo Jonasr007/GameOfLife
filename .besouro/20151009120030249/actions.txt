@@ -18,3 +18,6 @@ RefactoringAction 1444382420376 Cell.java ADD void nextIt FIELD
 RefactoringAction 1444382421888 Cell.java RENAME nextIt=>void nextIteration() METHOD
 RefactoringAction 1444382442419 Cell.java ADD String getState() METHOD
 EditAction 1444382466396 Cell.java 249 3 2 0
+CompilationAction 1444382469280 TestCell.java
+CompilationAction 1444382469281 TestCell.java
+EditAction 1444382508897 Cell.java 256 3 2 0
