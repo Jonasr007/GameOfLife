@@ -14,8 +14,8 @@ public class Grid {
 			for (int dy=-1; dy<=1; dy++) {
 	
 				Cell neighbour = new Cell(cell.x+dx, cell.y+dy);
-			//	System.out.println(neighbour);
-			//	System.out.println(cells.toString());
+				System.out.println(neighbour);
+				System.out.println(cells.toString());
 
 				if(cells.contains(neighbour)) {
 					System.out.println(" gleiches Element");
