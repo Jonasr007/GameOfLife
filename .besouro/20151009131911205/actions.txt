@@ -47,3 +47,6 @@ UnitTestSessionAction 1444387963490 TestGrid FAIL
 RefactoringAction 1444388072512 Cell.java ADD int hashCode() METHOD
 RefactoringAction 1444388072513 Cell.java ADD boolean equals(Object) METHOD
 EditAction 1444388074893 Cell.java 1022 8 20 0
+UnitTestCaseAction 1444388081649 TestGrid.java OK
+UnitTestSessionAction 1444388081649 TestGrid OK
+EditAction 1444388317885 Grid.java 697 2 7 0
