@@ -41,3 +41,12 @@ EditAction 1444383066420 TestCell.java 415 1 3 1
 UnitTestCaseAction 1444383071187 TestCell.java FAIL
 UnitTestSessionAction 1444383071188 TestCell FAIL
 EditAction 1444383090083 Cell.java 356 3 3 0
+UnitTestCaseAction 1444383093309 TestCell.java OK
+UnitTestSessionAction 1444383093311 TestCell OK
+RefactoringAction 1444383302006 TestGrid.java ADD import org.unioulu.tol.sqatlab.gameoflife.Cell IMPORT
+RefactoringAction 1444383305882 TestGrid.java ADD import org.unioulu.tol.sqatlab.gameoflife.Grid IMPORT
+RefactoringAction 1444383400256 Cell.java RENAME Cell(String)=>Cell(int) METHOD
+RefactoringAction 1444383401269 Cell.java RENAME Cell(int)=>Cell(int, int) METHOD
+RefactoringAction 1444383407283 Cell.java ADD int x FIELD
+RefactoringAction 1444383410796 Cell.java ADD int y FIELD
+EditAction 1444383435285 Cell.java 376 3 4 0
