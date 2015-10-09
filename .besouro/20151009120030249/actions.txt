@@ -69,3 +69,4 @@ UnitTestCaseAction 1444383536164 TestGrid.java OK
 UnitTestSessionAction 1444383536165 TestGrid OK
 RefactoringAction 1444383573250 Grid.java ADD void addCell(Cell) METHOD
 EditAction 1444383579011 Grid.java 196 2 1 0
+EditAction 1444383582107 TestGrid.java 464 1 5 1

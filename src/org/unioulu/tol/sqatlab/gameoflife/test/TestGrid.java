@@ -11,6 +11,7 @@ public class TestGrid {
 	public void test() {
 		Grid grid = new Grid();
 		Cell cell = new Cell(1,1);
+		grid.addCell(cell);
 			
 		int numNeighbours=grid.getNeighbours(cell);
 		
