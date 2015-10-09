@@ -7,3 +7,14 @@ UnitTestCaseAction 1444382215613 TestCell.java FAIL
 UnitTestSessionAction 1444382215614 TestCell FAIL
 RefactoringAction 1444382298629 TestCell.java ADD import org.unioulu.tol.sqatlab.gameoflife.Cell IMPORT
 EditAction 1444382325886 TestCell.java 381 1 3 1
+CompilationAction 1444382329414 TestCell.java
+CompilationAction 1444382329415 TestCell.java
+CompilationAction 1444382329416 TestCell.java
+RefactoringAction 1444382370007 Cell.java ADD Cell(String) METHOD
+RefactoringAction 1444382385275 Cell.java ADD String name FIELD
+RefactoringAction 1444382397301 Cell.java RENAME name=>String sta FIELD
+RefactoringAction 1444382398310 Cell.java RENAME sta=>String state FIELD
+RefactoringAction 1444382420376 Cell.java ADD void nextIt FIELD
+RefactoringAction 1444382421888 Cell.java RENAME nextIt=>void nextIteration() METHOD
+RefactoringAction 1444382442419 Cell.java ADD String getState() METHOD
+EditAction 1444382466396 Cell.java 249 3 2 0
