@@ -8,7 +8,7 @@ import org.unioulu.tol.sqatlab.gameoflife.Cell;
 public class TestCell {
 
 	@Test
-	public void test() {
+	public void TestLiveCellWithNeighboursShouldLive() {
 		// arange
 		Cell cell = new Cell("Alive");
 		

@@ -29,3 +29,9 @@ EditAction 1444382908707 Cell.java 371 3 4 0
 CompilationAction 1444382911974 TestCell.java
 EditAction 1444382915704 Cell.java 372 3 4 0
 EditAction 1444382927191 TestCell.java 382 1 3 1
+RefactoringAction 1444383029531 TestCell.java RENAME test()=>void TestÖoveCeööWotjWtp() METHOD
+RefactoringAction 1444383036547 TestCell.java RENAME TestÖoveCeööWotjWtp()=>void Test() METHOD
+RefactoringAction 1444383041562 TestCell.java RENAME Test()=>void TestLiveCellWith() METHOD
+RefactoringAction 1444383042578 TestCell.java RENAME TestLiveCellWith()=>void TestLiveCellWithN() METHOD
+RefactoringAction 1444383048095 TestCell.java RENAME TestLiveCellWithN()=>void TestLiveCellWithNeighboursShouldLive() METHOD
+EditAction 1444383055295 TestCell.java 414 1 3 1
