@@ -50,3 +50,8 @@ RefactoringAction 1444383401269 Cell.java RENAME Cell(int)=>Cell(int, int) METHO
 RefactoringAction 1444383407283 Cell.java ADD int x FIELD
 RefactoringAction 1444383410796 Cell.java ADD int y FIELD
 EditAction 1444383435285 Cell.java 376 3 4 0
+CompilationAction 1444383438395 TestCell.java
+CompilationAction 1444383447039 TestCell.java
+RefactoringAction 1444383466726 Grid.java ADD void getNeighbours() METHOD
+RefactoringAction 1444383476743 Grid.java RENAME getNeighbours()=>void getNeighbours(Cell) METHOD
+EditAction 1444383478777 Grid.java 110 1 0 0

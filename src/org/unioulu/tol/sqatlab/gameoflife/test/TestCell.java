@@ -10,7 +10,7 @@ public class TestCell {
 	@Test
 	public void TestLiveCellWithNeighboursShouldLive() {
 		// arange
-		Cell cell = new Cell("Alive");
+		Cell cell = new Cell(1,1);
 		
 		cell.nextIteration(2);
 		
