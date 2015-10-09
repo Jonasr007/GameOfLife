@@ -5,6 +5,13 @@ import java.util.Set;
 
 public class Grid {
 	private Set<Cell> cells = new HashSet<>(); 
+	int aliveCounter;
+	int deadCounter;
+	
+	Grid() {
+		aliveCounter=0;
+		deadCounter=0;
+	}
 	
 	public int getNeighbours(Cell cell) {
 		int numNeighbours=0;
@@ -26,9 +33,10 @@ public class Grid {
 	}
 
 	public void addCell(Cell cell) {
-		int r = (int)(Math.random()*10);
-		double d = Math.random();
-		System.out.println(r);
+		int r = (int)(Math.random()*2);
+		if(r==0) {
+			
+		}
 		
 		cells.add(cell);	
 	}

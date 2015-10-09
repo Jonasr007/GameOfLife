@@ -58,6 +58,10 @@ public class Cell {
 	public String toString() {
 		return "X= " +x + "  Y= " + y + "  state: " + state;
 	}
+
+	public void setState(String state) {
+		this.state=state;
+	}
 	
 	
 	
