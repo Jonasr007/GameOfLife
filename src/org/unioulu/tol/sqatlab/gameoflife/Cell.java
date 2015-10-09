@@ -9,6 +9,14 @@ public class Cell {
 		this.y=y;
 	}
 	
+	public int getX() {
+		return x;
+	}
+
+	public int getY() {
+		return y;
+	}
+
 	public void nextIteration(int numberOfLiveCells) {
 		if(state.equals("alive") && numberOfLiveCells<2) {
 			state ="Dead";
