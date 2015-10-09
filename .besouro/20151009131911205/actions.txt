@@ -86,3 +86,5 @@ CompilationAction 1444388651331 TestGrid.java
 RefactoringAction 1444388900787 Cell.java ADD void setState() METHOD
 RefactoringAction 1444388909853 Cell.java RENAME setState()=>void setState(String) METHOD
 EditAction 1444388918061 Cell.java 1084 9 21 0
+CompilationAction 1444388922083 TestGrid.java
+EditAction 1444388954309 Grid.java 848 3 9 0

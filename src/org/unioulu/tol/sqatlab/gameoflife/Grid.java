@@ -35,8 +35,13 @@ public class Grid {
 	public void addCell(Cell cell) {
 		int r = (int)(Math.random()*2);
 		if(r==0) {
-			
+			cell.setState("Alive");
 		}
+		else {
+			cell.setState("Dead");
+
+		}
+
 		
 		cells.add(cell);	
 	}
