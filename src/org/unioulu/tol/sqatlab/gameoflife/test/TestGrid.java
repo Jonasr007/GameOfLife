@@ -8,7 +8,7 @@ import org.unioulu.tol.sqatlab.gameoflife.Grid;
 public class TestGrid {
 
 	@Test
-	public void test() {
+	public void testSingleCellOnGridHasNotNeighbours() {
 		Grid grid = new Grid();
 		Cell cell = new Cell(1,1);
 		grid.addCell(cell);
@@ -16,8 +16,21 @@ public class TestGrid {
 		int numNeighbours=grid.getNeighbours(cell);
 		
 		assertEquals(0, numNeighbours);
+	}
+	
+	@Test
+	public void testSingleCellOnGridHasNotNeighbours() {
+		Grid grid = new Grid();
+		Cell cell1 = new Cell(0,0);
+		Cell cell2 = new Cell(0,1);
+
+		grid.addCell(cell1);
+		grid.addCell(cell2);
+
+			
+		int numNeighbours=grid.getNeighbours(cell1);
 		
-		//fail("Not yet implemented");
+		assertEquals(1, numNeighbours);
 	}
 
 }

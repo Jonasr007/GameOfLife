@@ -70,3 +70,12 @@ UnitTestSessionAction 1444383536165 TestGrid OK
 RefactoringAction 1444383573250 Grid.java ADD void addCell(Cell) METHOD
 EditAction 1444383579011 Grid.java 196 2 1 0
 EditAction 1444383582107 TestGrid.java 464 1 5 1
+UnitTestCaseAction 1444383587564 TestGrid.java OK
+UnitTestSessionAction 1444383587565 TestGrid OK
+RefactoringAction 1444383599471 TestGrid.java RENAME test()=>void testSingle() METHOD
+RefactoringAction 1444383600985 TestGrid.java RENAME testSingle()=>void testSingleG() METHOD
+RefactoringAction 1444383604005 TestGrid.java RENAME testSingleG()=>void testSingleCellOnGrid() METHOD
+RefactoringAction 1444383605518 TestGrid.java RENAME testSingleCellOnGrid()=>void testSingleCellOnGridHas() METHOD
+RefactoringAction 1444383609533 TestGrid.java RENAME testSingleCellOnGridHas()=>void testSingleCellOnGridHasNotNeighbours() METHOD
+RefactoringAction 1444383618568 TestGrid.java ADD void testSingleCellOnGridHasNotNeighbours()/2 METHOD
+EditAction 1444383662457 TestGrid.java 748 2 12 2
