@@ -6,16 +6,7 @@ import org.unioulu.tol.sqatlab.gameoflife.Grid;
 
 public class TestGrid {
 
-	@Test
-	public void testSingleCellOnGridHasNotNeighbours() {
-		Grid grid = new Grid();
-		Cell cell = new Cell(1,1);
-		grid.addCell(cell);
-			
-		int numNeighbours=grid.getNeighbours(cell);
-		
-		assertEquals(0, numNeighbours);
-	}
+
 	
 	@Test
 	public void testSingleCellOnGridShouldHasOneNeighbour() {
@@ -44,6 +35,17 @@ public class TestGrid {
 		int numNeighbours=grid.getNeighbours(cell1);
 		
 		assertEquals(1, numNeighbours);
+	}
+	
+		@Test
+	public void testSingleCellOnGridHasNotNeighbours() {
+		Grid grid = new Grid();
+		Cell cell = new Cell(1,1);
+		grid.addCell(cell);
+			
+		int numNeighbours=grid.getNeighbours(cell);
+		
+		assertEquals(0, numNeighbours);
 	}
 	*/
 	
