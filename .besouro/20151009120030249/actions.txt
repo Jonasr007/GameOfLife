@@ -56,3 +56,5 @@ RefactoringAction 1444383466726 Grid.java ADD void getNeighbours() METHOD
 RefactoringAction 1444383476743 Grid.java RENAME getNeighbours()=>void getNeighbours(Cell) METHOD
 EditAction 1444383478777 Grid.java 110 1 0 0
 EditAction 1444383483150 TestGrid.java 440 1 5 1
+CompilationAction 1444383487654 TestGrid.java
+EditAction 1444383504570 Grid.java 118 1 1 0
