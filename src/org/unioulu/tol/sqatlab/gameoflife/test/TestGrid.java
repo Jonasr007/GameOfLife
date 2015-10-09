@@ -16,7 +16,7 @@ public class TestGrid {
 		
 		assertEquals(0, numNeighbours);
 		
-		fail("Not yet implemented");
+		//fail("Not yet implemented");
 	}
 
 }

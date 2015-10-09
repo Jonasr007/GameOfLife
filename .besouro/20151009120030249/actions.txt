@@ -58,3 +58,10 @@ EditAction 1444383478777 Grid.java 110 1 0 0
 EditAction 1444383483150 TestGrid.java 440 1 5 1
 CompilationAction 1444383487654 TestGrid.java
 EditAction 1444383504570 Grid.java 118 1 1 0
+UnitTestCaseAction 1444383507868 TestGrid.java FAIL
+UnitTestSessionAction 1444383507871 TestGrid FAIL
+UnitTestCaseAction 1444383518185 TestGrid.java FAIL
+UnitTestSessionAction 1444383518186 TestGrid FAIL
+UnitTestCaseAction 1444383521675 TestGrid.java FAIL
+UnitTestSessionAction 1444383521676 TestGrid FAIL
+EditAction 1444383530997 TestGrid.java 442 1 4 1
