@@ -6,13 +6,17 @@ public class Cell {
 		this.state=state;
 	}
 	
-	public void nextIteration() {
-		
+	public void nextIteration(int numberOfLiveCells) {
+		if(state.equals("alive") && numberOfLiveCells<2) {
+			state ="Dead";
+		}
+		else
+			state ="Dead";
 	}
 
 	public String getState() {
-		return "Dead";
-		//return state;
+		state="dead";
+		return state;
 	}
 	
 	
