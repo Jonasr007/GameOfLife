@@ -42,3 +42,8 @@ UnitTestCaseAction 1444387940861 TestGrid.java FAIL
 UnitTestSessionAction 1444387940862 TestGrid FAIL
 RefactoringAction 1444387956147 TestGrid.java REMOVE testSingleCellOnGridHasNotNeighbours() METHOD
 EditAction 1444387958710 TestGrid.java 1064 1 7 1
+UnitTestCaseAction 1444387963489 TestGrid.java FAIL
+UnitTestSessionAction 1444387963490 TestGrid FAIL
+RefactoringAction 1444388072512 Cell.java ADD int hashCode() METHOD
+RefactoringAction 1444388072513 Cell.java ADD boolean equals(Object) METHOD
+EditAction 1444388074893 Cell.java 1022 8 20 0
